@@ -3,7 +3,7 @@
               [re-frame.core :refer [subscribe dispatch dispatch-sync]]
               [sqlite-example.handlers]
               [sqlite-example.subs]
-              [cljs-exponent.reagent :refer [text view image touchable-highlight] :as rn]))
+              [cljs-exponent.reagent :refer [text view image touchable-highlight text-input] :as rn]))
 
 (defn alert [title]
   (.alert rn/alert title))
